@@ -1,0 +1,225 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(243, 240, 240);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  border-radius: 10px 0px;
+  color: #fff9f9;
+}
+#home {
+  padding: 50px;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 25px;
+  background-image: url(project/22.jpg);
+  font-weight: bolder;
+}
+#about {
+  font-weight: bold;
+  background-color: rgb(226, 222, 208);
+  padding: 10 px;
+  color: black;
+  font-size: 20px;
+}
+.image-with-description {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.image-with-description .image {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.image-with-description .image:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+.image-with-description .description h2 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+.image-with-description .description p {
+  margin: 10px 0 0;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555;
+}
+.action-button {
+  padding: 10px 20px;
+  font-size: 0.5em;
+  background-color: rgb(202, 65, 23);
+  color: rgb(250, 246, 246);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.action-button:hover {
+  background-color: rgb(228, 154, 18);
+}
+.navbar > h1 {
+  top: 1px;
+  position: absolute;
+  left: 10px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.navbar {
+  color: rgb(204, 202, 202);
+  background-color: rgb(90, 60, 60);
+  font-weight: bold;
+  font-size: 100000 px;
+  padding: 30px;
+  text-align: right;
+  top: 1em;
+  display: flex;
+  justify-content: right;
+}
+
+.navbar ul {
+  list-style: none;
+  color: white;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar li {
+  color: white;
+
+  margin: 0 15px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  transition: color 0.4s;
+}
+
+.navbar a:hover {
+  color: #ffae0dbb;
+}
+
+.section {
+  padding: 80px;
+  text-align: center;
+}
+#books {
+  font-weight: bold;
+  background-color: rgb(226, 222, 208);
+  color: rgb(31, 4, 4);
+}
+
+.book-category {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 50px 0;
+}
+
+.books {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.book {
+  border: 1px solid #ddd;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  width: 200px;
+}
+
+.book img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.book:hover {
+  transform: scale(1.05);
+  box-shadow: 4px 4px 10px rgba(250, 173, 6, 0.87);
+}
+
+footer {
+  color: rgb(12, 10, 10);
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 0;
+}
+#contact {
+  background-color: rgb(209, 201, 176);
+  color: black;
+}
+
+form {
+  width: 100%;
+  text-align: center;
+  max-width: 600px;
+  margin-left: 200px;
+  padding: 20px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: "Arial", sans-serif;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 15px;
+  background-color: #a5550a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #171817;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  color: #000000;
+}
+
+textarea {
+  height: 100px;
+}

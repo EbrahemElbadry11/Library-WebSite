@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Electronic Library</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <h1>Library</h1>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#books">Books</a></li>
+          <li><a href="#about">About US</a></li>
+          <li><a href="#contact">Contact US</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="home" class="section">
+      <h1>Welcome To Our Electronic Library</h1>
+      <p>
+        "Welcome to our Electronic Library! Discover a diverse collection of
+        books spanning various genres, from fiction to non-fiction, carefully
+        curated to inspire and inform. Whether you're a passionate reader or a
+        curious learner, our library offers something for everyone. Explore,
+        read, and immerse yourself in the world of knowledge!"
+      </p>
+      <button class="action-button">learn more</button>
+    </section>
+
+    <section id="books" class="section">
+      <h2>Books</h2>
+      <div class="book-category">
+        <h3>Fiction</h3>
+        <div class="books">
+          <div class="book">
+            <img src="project/b1" alt="Book 1" />
+            <h4>The Great Gatsby</h4>
+            <p>A classic novel by F. Scott Fitzgerald.</p>
+          </div>
+          <div class="book">
+            <img src="project/b2" alt="Book 2" />
+            <h4>1984</h4>
+            <p>A dystopian novel by George Orwell.</p>
+          </div>
+          <div class="book">
+            <img src="project/lord.png" alt="The Lord of the Rings" />
+            <h3>The Lord of the Rings</h3>
+            <p>
+              An epic tale of friendship, bravery, and the fight against evil .
+            </p>
+          </div>
+
+          <div class="book">
+            <img src="project/harry.jpg" alt="Harry Potter and the Sorcerer's Stone" />
+            <h3>Harry Potter and the Sorcerer's Stone</h3>
+            <p>
+              A magical story of a young wizard's journey at Hogwarts School.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="book-category">
+        <h3>Non-Fiction</h3>
+        <div class="books">
+          <div class="book">
+            <img src="project/b3" alt="Book 3" />
+            <h4>Sapiens</h4>
+            <p>A brief history of humankind by Yuval Noah Harari.</p>
+          </div>
+          <div class="book">
+            <img src="project/b4.jpg" alt="Book 4" />
+            <h4>The Power of Habit</h4>
+            <p>A book explores the science of habits by Charles Duhigg,.</p>
+          </div>
+          <div class="book">
+            <img src="project/think.jpg" alt="Thinking, Fast and Slow by Daniel Kahneman"/>
+            <h3>Thinking, Fast and Slow</h3>
+            <p>
+              An enlightening exploration of the two systems that drive human
+              thought.
+            </p>
+          </div>
+
+          <div class="book">
+            <img src="project/educat.jpg" alt="Educated by Tara Westover" />
+            <h3>Educated</h3>
+            <p>A powerful memoir of resilience and self-discovery.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="section">
+      <section class="image-with-description">
+        <div>
+          <div>
+            <img src="project/22.jpg" alt="Description Image" class="image" />
+          </div>
+          <h2>About US</h2>
+          <p>
+            Our mission is to provide readers, students, and book enthusiasts
+            with access to a wide variety of books spanning numerous genres and
+            topics. From timeless classics to the latest releases, we strive to
+            create a hub of knowledge and inspiration. We are committed to
+            fostering a love for reading and learning by connecting authors,
+            readers, and literary treasures in one virtual space.
+          </p>
+        </div>
+      
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact US</h2>
+      <form id="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Electronic Library. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
